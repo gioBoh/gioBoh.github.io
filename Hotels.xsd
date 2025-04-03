@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    targetNamespace="http://example.org/hotels"
+    xmlns="http://example.org/hotels">
+
+  <!-- Root element -->
+  <xsd:element name="Hotels">
+    <xsd:complexType>
+      <xsd:sequence>
+        <!-- Hotel element repeats -->
+        <xsd:element name="Hotel" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Name" type="xsd:string"/>
+              
+              <!-- Multiple Phone elements allowed -->
+              <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+              
+              <!-- Address element -->
+              <xsd:element name="Address">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Number" type="xsd:string"/>
+                    <xsd:element name="Street" type="xsd:string"/>
+                    <xsd:element name="City" type="xsd:string"/>
+                    <xsd:element name="State" type="xsd:string"/>
+                    <xsd:element name="Zip" type="xsd:string"/>
+                  </xsd:sequence>
+                  <!-- Required attribute -->
+                  <xsd:attribute name="NearstAirport" use="required" type="xsd:string"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <!-- Optional attribute Rating -->
+            <xsd:attribute name="Rating" use="optional" type="xsd:string"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>
