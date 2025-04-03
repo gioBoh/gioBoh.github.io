@@ -8,7 +8,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -20,7 +20,7 @@
   <Hotel Rating="5.0">
     <Name>Four Seasons</Name>
     <Phone>480-333-1111</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>300</Number>
       <Street>Luxury Ave</Street>
       <City>Scottsdale</City>
@@ -33,7 +33,7 @@
     <Name>Hilton</Name>
     <Phone>602-222-1234</Phone>
     <Phone>602-222-5678</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>Hilton Way</Street>
       <City>Phoenix</City>
@@ -45,7 +45,7 @@
   <Hotel>
     <Name>Marriott</Name>
     <Phone>623-777-0000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>200</Number>
       <Street>Marriott Dr</Street>
       <City>Tempe</City>
@@ -57,7 +57,7 @@
   <Hotel Rating="3.5">
     <Name>Sheraton</Name>
     <Phone>480-555-1212</Phone>
-    <Address NearestAirport="PHX Gateway">
+    <Address NearstAirport="PHX Gateway">
       <Number>345</Number>
       <Street>Main St</Street>
       <City>Mesa</City>
@@ -69,7 +69,7 @@
   <Hotel>
     <Name>Hyatt</Name>
     <Phone>602-555-5555</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>500</Number>
       <Street>Hyatt Blvd</Street>
       <City>Phoenix</City>
@@ -81,7 +81,7 @@
   <Hotel Rating="4.8">
     <Name>Ritz-Carlton</Name>
     <Phone>480-666-8888</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>1</Number>
       <Street>Luxury Rd</Street>
       <City>Scottsdale</City>
@@ -93,7 +93,7 @@
   <Hotel Rating="4.0">
     <Name>Best Western</Name>
     <Phone>480-123-4567</Phone>
-    <Address NearestAirport="Mesa Gateway">
+    <Address NearstAirport="Mesa Gateway">
       <Number>45</Number>
       <Street>Western Ct</Street>
       <City>Mesa</City>
@@ -105,7 +105,7 @@
   <Hotel>
     <Name>Motel 6</Name>
     <Phone>480-999-9999</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>999</Number>
       <Street>Budget Lane</Street>
       <City>Tempe</City>
@@ -117,7 +117,7 @@
   <Hotel Rating="5.0">
     <Name>Waldorf Astoria</Name>
     <Phone>480-888-2222</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>110</Number>
       <Street>Grand Ave</Street>
       <City>Phoenix</City>
@@ -129,7 +129,7 @@
   <Hotel>
     <Name>Holiday Inn</Name>
     <Phone>480-777-7777</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>9999</Number>
       <Street>Holiday Blvd</Street>
       <City>Tempe</City>
