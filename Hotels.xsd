@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  This XSD defines the schema for our Hotels XML.
+  It declares the root element <Hotels>, which can have multiple <Hotel> elements.
+  Each <Hotel> element can have optional attribute Rating, a <Name> element, 
+  multiple <Phone> elements, and one <Address> element which has a required NearstAirport attribute.
+-->
 <xsd:schema 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     elementFormDefault="qualified"
     targetNamespace="http://example.org/hotels"
     xmlns="http://example.org/hotels">
 
-  <!-- Root element -->
+  <!-- Root element definition: "Hotels" -->
   <xsd:element name="Hotels">
     <xsd:complexType>
       <xsd:sequence>
-        <!-- Hotel element repeats -->
+        <!-- "Hotel" element can appear many times (maxOccurs="unbounded") -->
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
+              <!-- The "Name" element must contain a string. -->
               <xsd:element name="Name" type="xsd:string"/>
               
-              <!-- Multiple Phone elements allowed -->
+              <!-- "Phone" can occur multiple times (unbounded) and at least once (minOccurs="1"). -->
               <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
               
-              <!-- Address element -->
+              <!-- Address element definition with a required "NearstAirport" attribute. -->
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
@@ -28,12 +35,12 @@
                     <xsd:element name="State" type="xsd:string"/>
                     <xsd:element name="Zip" type="xsd:string"/>
                   </xsd:sequence>
-                  <!-- Required attribute -->
+                  <!-- The "NearstAirport" attribute is required. -->
                   <xsd:attribute name="NearstAirport" use="required" type="xsd:string"/>
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
-            <!-- Optional attribute Rating -->
+            <!-- "Rating" is an optional attribute, so use="optional". -->
             <xsd:attribute name="Rating" use="optional" type="xsd:string"/>
           </xsd:complexType>
         </xsd:element>
