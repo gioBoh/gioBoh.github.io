@@ -2,7 +2,7 @@
 <!-- 1) The root is "Hotel" (wrong) instead of "Hotels" -->
 <Hotel xmlns="http://example.org/hotels"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://example.org/hotels https://YOUR_GITHUB_URL/Hotels.xsd">
+       xsi:schemaLocation="http://example.org/hotels https://github.com/gioBoh/gioBoh.github.io/edit/main/Hotels.xsd">
 
   <!-- Has 2 name elements (Error #5) -->
   <Hotel Rating="4.2">
