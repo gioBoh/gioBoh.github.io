@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- The root element "Hotels" holds all hotel entries. -->
 <Hotels xmlns="http://example.org/hotels"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://example.org/hotels https://raw.githubusercontent.com/gioBoh/gioBoh.github.io/main/Hotels.xsd">
 
   <!-- Example from figure -->
+  <!-- This Hotel has a "Rating" attribute (optional) and multiple phone numbers. -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -17,6 +19,7 @@
     </Address>
   </Hotel>
 
+  <!-- Another Hotel example with Rating and single phone number. -->
   <Hotel Rating="5.0">
     <Name>Four Seasons</Name>
     <Phone>480-333-1111</Phone>
@@ -29,6 +32,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel without a Rating attribute, but with two phone numbers. -->
   <Hotel>
     <Name>Hilton</Name>
     <Phone>602-222-1234</Phone>
@@ -42,6 +46,7 @@
     </Address>
   </Hotel>
 
+  <!-- Single phone number and no Rating attribute. -->
   <Hotel>
     <Name>Marriott</Name>
     <Phone>623-777-0000</Phone>
@@ -54,6 +59,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel with an explicit Rating of 3.5 and single phone. -->
   <Hotel Rating="3.5">
     <Name>Sheraton</Name>
     <Phone>480-555-1212</Phone>
@@ -66,6 +72,7 @@
     </Address>
   </Hotel>
 
+  <!-- Another hotel with no Rating attribute. -->
   <Hotel>
     <Name>Hyatt</Name>
     <Phone>602-555-5555</Phone>
@@ -78,6 +85,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel with Rating="4.8". -->
   <Hotel Rating="4.8">
     <Name>Ritz-Carlton</Name>
     <Phone>480-666-8888</Phone>
@@ -90,6 +98,7 @@
     </Address>
   </Hotel>
 
+  <!-- Rating="4.0"; note the different "NearstAirport" value: "Mesa Gateway". -->
   <Hotel Rating="4.0">
     <Name>Best Western</Name>
     <Phone>480-123-4567</Phone>
@@ -102,6 +111,7 @@
     </Address>
   </Hotel>
 
+  <!-- Motel 6 with no Rating attribute. -->
   <Hotel>
     <Name>Motel 6</Name>
     <Phone>480-999-9999</Phone>
@@ -114,6 +124,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel with an explicit Rating of 5.0. -->
   <Hotel Rating="5.0">
     <Name>Waldorf Astoria</Name>
     <Phone>480-888-2222</Phone>
@@ -126,6 +137,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hotel with no Rating. -->
   <Hotel>
     <Name>Holiday Inn</Name>
     <Phone>480-777-7777</Phone>
