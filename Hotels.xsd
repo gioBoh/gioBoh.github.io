@@ -1,3 +1,7 @@
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
+
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   This XSD defines the schema for our Hotels XML.
@@ -49,3 +53,7 @@
   </xsd:element>
 
 </xsd:schema>
+
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
