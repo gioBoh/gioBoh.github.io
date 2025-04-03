@@ -1,3 +1,7 @@
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
+
 <?xml version="1.0" encoding="utf-8"?>
 <!-- The root element "Hotels" holds all hotel entries. -->
 <Hotels xmlns="http://example.org/hotels"
@@ -151,3 +155,7 @@
   </Hotel>
 
 </Hotels>
+
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
