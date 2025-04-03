@@ -29,7 +29,7 @@
                     <xsd:element name="Zip" type="xsd:string"/>
                   </xsd:sequence>
                   <!-- Required attribute -->
-                  <xsd:attribute name="NearstAirport" use="required" type="xsd:string"/>
+                  <xsd:attribute name="NearestAirport" use="required" type="xsd:string"/>
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
