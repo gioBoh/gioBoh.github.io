@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns="http://example.org/hotels"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://example.org/hotels https://github.com/gioBoh/gioBoh.github.io/blob/main/Hotels.xsd">
+        xsi:schemaLocation="http://example.org/hotels https://raw.githubusercontent.com/gioBoh/gioBoh.github.io/main/Hotels.xsd">
 
   <!-- Example from figure -->
   <Hotel Rating="4.2">
