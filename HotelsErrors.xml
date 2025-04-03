@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1) The root is "Hotel" (wrong) instead of "Hotels" -->
+<Hotel xmlns="http://example.org/hotels"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://example.org/hotels https://YOUR_GITHUB_URL/Hotels.xsd">
+
+  <!-- Has 2 name elements (Error #5) -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Name>ExtraName</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <!-- Proper address closing -->
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Missing the required attribute NearstAirport (Error #2) -->
+  <Hotel Rating="5.0">
+    <Name>Four Seasons</Name>
+    <Phone>480-333-1111</Phone>
+    <Address>
+      <Number>300</Number>
+      <Street>Luxury Ave</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Missing Phone entirely (Error #3) -->
+  <Hotel>
+    <Name>Hilton</Name>
+    <Address NearstAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>Hilton Way</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Address element not closed (Error #4) -->
+  <Hotel>
+    <Name>Marriott</Name>
+    <Phone>623-777-0000</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>200</Number>
+      <Street>Marriott Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    <!-- Missing </Address> closing tag -->
+  </Hotel>
+
+</Hotel>
