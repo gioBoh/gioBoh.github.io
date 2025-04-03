@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 1) The root is "Hotel" (wrong) instead of "Hotels" -->
-<Hotel xmlns="http://example.org/hotels"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://example.org/hotels https://github.com/gioBoh/gioBoh.github.io/blob/main/Hotels.xsd">
+<Hotels xmlns="http://example.org/hotels"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://example.org/hotels https://raw.githubusercontent.com/gioBoh/gioBoh.github.io/main/Hotels.xsd">
 
   <!-- Has 2 name elements (Error #5) -->
   <Hotel Rating="4.2">
