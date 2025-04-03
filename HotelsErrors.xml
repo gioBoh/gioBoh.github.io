@@ -1,3 +1,7 @@
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
+
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 1) Deliberately has the wrong root element name in the assignment,
        but here it's "Hotels" to keep structure. The assignment's instructions 
@@ -69,3 +73,6 @@
   </Hotel>
 
 </Hotels>
+// ----------------------------
+// GIORGIO BORDOLI 04/03/2025
+// ----------------------------
