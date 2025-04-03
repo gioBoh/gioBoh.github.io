@@ -11,7 +11,7 @@
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <!-- Proper address closing -->
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -36,7 +36,7 @@
   <!-- Missing Phone entirely (Error #3) -->
   <Hotel>
     <Name>Hilton</Name>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>Hilton Way</Street>
       <City>Phoenix</City>
@@ -49,7 +49,7 @@
   <Hotel>
     <Name>Marriott</Name>
     <Phone>623-777-0000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>200</Number>
       <Street>Marriott Dr</Street>
       <City>Tempe</City>
